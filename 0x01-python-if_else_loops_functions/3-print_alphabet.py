@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-x = 97
-while x <= 122:
+for x in range(97, 123):
     if chr(x) == 'e' or char(x) == "q":
         continue
     else:
