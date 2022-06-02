@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 import calculator_1 as cal
 if __name__ == "__main__":
     a = 10
@@ -7,7 +8,7 @@ if __name__ == "__main__":
     d = cal.sub(a, b)
     e = cal.mul(a, b)
     f = cal.div(a, b)
-    print(f"{a} {+} {b} = {c}")
-    print(f"{a} {-} {b} = {d}")
-    print(f"{a} {*} {b} = {e}")
-    print(f"{a} {/} {b} = {f}")
+    print("{} + {} = {}".format(a, b, c))
+    print("{} - {} = {}".format(a, b, c))
+    print("{} * {} = {}".format(a, b, c))
+    print("{} / {} = {}".format(a, b, c))
