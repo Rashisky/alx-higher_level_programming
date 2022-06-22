@@ -1,9 +1,5 @@
 #!/usr/bin/python3
-"""
-python3 -c 'print(__import__("my_module").__doc__)'
-"""
+""" Defines an empty class Squre"""
 class Square:
-    """
-    python3 -c 'print(__import__("my_module").MyClass.__)'
-    """
+    """ Depicts what Square does"""
     pass
