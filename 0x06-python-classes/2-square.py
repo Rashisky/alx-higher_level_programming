@@ -1,17 +1,15 @@
 #!/usr/bin/python3
-""" Define a class Square """
+"""Define a class Square"""
 
 class Square:
-    """ Depicts what square does """
+    """Depicts what square does"""
 
     def __init__(self, size=0):
         """ Initialize Private Instance attribute """
 
-        """ checks if attribute is integer """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
 
-        """ checks if attribute is negative """
         elif size < 0:
             raise ValueError("size must be >= 0")
         self.__size = size
