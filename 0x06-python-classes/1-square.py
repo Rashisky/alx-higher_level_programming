@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ Defines the Square """
 
+
 class Square:
     """ Depict what square does"""
 
