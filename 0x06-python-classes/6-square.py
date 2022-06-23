@@ -34,7 +34,6 @@ class Square:
     """ Setter """
     @position.setter
     def position(self, value):
-        """ Change the position to new value """
         if not (len(value) == 2):
             raise TypeError("Position must be a tuple of 2 positive integers")
         elif not all(isinstance(k, int) for k in value):
@@ -46,6 +45,7 @@ class Square:
         return self.size**2
 
     def my_print(self):
+        """prints the shape of the square"""
         if self.size == 0:
             print('')
         else:
