@@ -4,7 +4,7 @@
 
 class Rectangle:
     """ the class function """
-    
+
     def __init__(self, width=0, height=0):
         """ Initializes the attribute: value """
         self.width = width
@@ -31,7 +31,7 @@ class Rectangle:
     def height(self):
         """ Retrieves the private height of the instance"""
         return self.__width
-    
+
     """Setter"""
     @height.setter
     def height(self, value):
@@ -41,4 +41,3 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__value = value
-        

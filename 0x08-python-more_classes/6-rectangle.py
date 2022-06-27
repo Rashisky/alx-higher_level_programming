@@ -5,9 +5,8 @@
 class Rectangle:
     """Rectangular class function"""
 
-
     number_of_instances = 0
-    
+
     def __init__(self, width=0, height=0):
         """ Initializes the attribute: value """
         self.width = width
@@ -34,7 +33,7 @@ class Rectangle:
     def height(self):
         """ Retrieves the private height of the instance"""
         return self.__width
-    
+
     """Setter"""
     @height.setter
     def height(self, value):
@@ -44,7 +43,7 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__value = value
-        
+
     def area(self):
         """finds the area of the rectangle"""
         return width * height
@@ -55,8 +54,6 @@ class Rectangle:
             return 0
         return 2*(width + height)
 
-        
-    
     def __str__(self):
         """prints the rectangle"""
         if (width == 0 or height == 0):
