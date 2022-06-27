@@ -3,4 +3,5 @@
 
 
 class Rectangle:
+    """Rectangular class function"""
     pass
