@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Describes a class Student"""
 
+
 Class Student:
     """Represent a student."""
 
