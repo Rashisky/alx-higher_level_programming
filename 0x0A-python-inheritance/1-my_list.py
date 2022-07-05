@@ -6,8 +6,7 @@ from another class
 
 
 class MyList(list):
-    """ MyList is the subclass that inherits
-    from the list
+    """ MyList is the subclass that inherits from the list
     """
 
     def print_sorted(self):

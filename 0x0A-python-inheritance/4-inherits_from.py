@@ -9,6 +9,6 @@ specified class; otherwise False
 def inherits_from(obj, a_class):
     """Checks if the object is inherited
     from the class"""
-    if isinstance(obj, a_class):
+    if issubclass(type(obj), a_class) and type(obj) != a_class:
         return True
     return False
